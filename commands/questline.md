@@ -1,6 +1,6 @@
 ---
+name: questline
 description: Start or resume a Questline durable goal chain with clarification, subgoals, guarded runtime state, and critic validation.
-argument-hint: [goal-or-resume-request]
 ---
 
 # Questline

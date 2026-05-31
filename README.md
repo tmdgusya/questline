@@ -47,9 +47,18 @@ For local development with Codex:
 
 ```powershell
 codex plugin add questline@personal
+python scripts/install_slash_command.py
 ```
 
-Start a new Codex thread after reinstalling so the plugin skills and MCP tools are reloaded.
+Start a new Codex thread after reinstalling so the plugin skills, MCP tools, and slash command are reloaded.
+
+The script installs a user-level command shim at:
+
+```text
+~/.codex/commands/questline.md
+```
+
+This is required for the current Codex CLI slash command registry.
 
 ## Usage
 

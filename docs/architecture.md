@@ -42,7 +42,7 @@ The manifest wires the plugin into Codex. `.mcp.json` starts `scripts/questline_
 
 ### Skill Layer
 
-`commands/questline.md` registers the `/questline` slash command. It loads the Questline runtime requirements and points Codex at the skill instructions.
+`commands/questline.md` defines the `/questline` slash command content. Current Codex CLI builds load user-level slash commands from `~/.codex/commands`, so `scripts/install_slash_command.py` installs this file as `~/.codex/commands/questline.md`.
 
 `skills/setgoal/SKILL.md` is the prompt-level control plane.
 
