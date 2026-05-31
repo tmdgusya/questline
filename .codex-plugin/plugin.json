@@ -1,6 +1,6 @@
 {
   "name": "questline",
-  "version": "0.1.0+codex.20260531010845",
+  "version": "0.1.0+codex.20260531024229",
   "description": "Questline turns vague prompts into durable goal chains with clarified scope, subgoals, execution, and critic validation.",
   "author": {
     "name": "Local developer"
