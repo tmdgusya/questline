@@ -4,7 +4,7 @@ Questline is a local Codex plugin for turning vague prompts into durable, verifi
 
 It provides:
 
-- a `/questline` workflow through the `setgoal` skill;
+- a `/questline` slash command backed by the `setgoal` skill;
 - clarification of ambiguity, constraints, non-goals, and acceptance criteria;
 - workflow-sized subgoals stored in a session-scoped ledger;
 - MCP tools that enforce guarded state transitions;
@@ -16,6 +16,7 @@ It provides:
 .codex-plugin/plugin.json
 .mcp.json
 scripts/questline_mcp.py
+commands/questline.md
 skills/setgoal/SKILL.md
 skills/setgoal/references/runtime-schema.md
 ```
@@ -49,3 +50,17 @@ codex plugin add questline@personal
 ```
 
 Start a new Codex thread after reinstalling so the plugin skills and MCP tools are reloaded.
+
+## Usage
+
+Start a new quest:
+
+```text
+/questline refactor this repository's authentication flow, but keep the existing API response shape
+```
+
+Resume an existing quest:
+
+```text
+/questline resume
+```

@@ -1,6 +1,6 @@
 ---
 name: setgoal
-description: Durable questline workflow for Codex. Use when the user invokes /questline, asks to set a large goal, wants ambiguous prompts clarified into subgoals, or wants autonomous chaining with critic validation until a final goal is reached.
+description: Durable questline workflow for Codex. Use when the user invokes the /questline slash command, asks to set a large goal, wants ambiguous prompts clarified into subgoals, or wants autonomous chaining with critic validation until a final goal is reached.
 ---
 
 # Questline Setgoal
@@ -11,6 +11,7 @@ Invocation forms:
 
 ```text
 /questline <prompt>
+/questline resume
 setgoal <prompt>
 start a questline for <prompt>
 ```

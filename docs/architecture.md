@@ -42,11 +42,13 @@ The manifest wires the plugin into Codex. `.mcp.json` starts `scripts/questline_
 
 ### Skill Layer
 
+`commands/questline.md` registers the `/questline` slash command. It loads the Questline runtime requirements and points Codex at the skill instructions.
+
 `skills/setgoal/SKILL.md` is the prompt-level control plane.
 
 It defines:
 
-- `/questline` invocation behavior;
+- `/questline` slash command behavior;
 - clarification policy;
 - ambiguity scoring;
 - subgoal planning rules;
