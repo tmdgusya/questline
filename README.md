@@ -38,6 +38,8 @@ State is stored per workspace, session, and quest instance:
 
 The MCP runtime rejects invalid transitions such as completing a subgoal before checks pass, skipping required critic review, or completing a quest while subgoals remain incomplete.
 
+See [Architecture](docs/architecture.md) for the full runtime model, state layout, transition rules, and enforcement boundaries.
+
 ## Install
 
 For local development with Codex:
