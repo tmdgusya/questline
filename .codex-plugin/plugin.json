@@ -1,0 +1,26 @@
+{
+  "name": "questline",
+  "version": "0.1.0+codex.20260531010845",
+  "description": "Questline turns vague prompts into durable goal chains with clarified scope, subgoals, execution, and critic validation.",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Questline",
+    "shortDescription": "Clarify vague work into durable goal chains.",
+    "longDescription": "Questline provides a /questline workflow that clarifies ambiguous prompts, records constraints and non-goals, decomposes work into verifiable subgoals, executes them in dependency order, and uses critic subagents when validation cannot be made concrete.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "/questline Build the feature I described, clarify gaps first.",
+      "/questline Refactor this repo toward the target architecture.",
+      "/questline Turn this vague idea into verified work."
+    ]
+  }
+}

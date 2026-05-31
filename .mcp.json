@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "questline": {
+      "command": "python",
+      "args": ["./scripts/questline_mcp.py"]
+    }
+  }
+}
